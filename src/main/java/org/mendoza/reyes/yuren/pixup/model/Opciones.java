@@ -143,7 +143,6 @@ public class Opciones {
         nuevoColonia.setId(ReadUtil.getInstance().leerInt());
         System.out.println("Ingrese el codigo postal");
         nuevoColonia.setCp(ReadUtil.getInstance().leerInt());
-        System.out.println("Ingrese el nombre del municipio");
         listaColonia.add(nuevoColonia);
     }
 
@@ -157,7 +156,7 @@ public class Opciones {
                 if (idColonia == listaColonia.get(i).getId()) {
                     listaColonia.remove(i);
                     coincidencia = true;
-                    System.out.println("Estado borrado con exito");
+                    System.out.println("Colonia borrada con exito");
                 }
             }
             if (coincidencia == false) {
@@ -173,9 +172,11 @@ public class Opciones {
         for (int i = 0; i < listaColonia.size(); i++) {
             if (idColonia == listaColonia.get(i).getId()) {
                 Estado nuevoEstado = new Estado();
-                nuevoEstado.setIde(listaColonia.get(i).getId());
-                System.out.println("Ingresa la nuevo colonia:");
-                nuevoEstado.setNombre(ReadUtil.getInstance().leer());
+                nuevoColonia.setId(listaColonia.get(i).getId());
+                System.out.println("Ingresa la nueva colonia:");
+                nuevoColonia.setNombre(ReadUtil.getInstance().leer());
+                System.out.println("Ingresa el numero postal");
+                nuevoColonia.setCp(ReadUtil.getInstance().leerInt());
                 listaColonia.set(i,nuevoColonia);
                 coincidencia = true;
                 System.out.println("Datos cambiado con exito");
@@ -189,7 +190,6 @@ public class Opciones {
     public void consultaColonia() {
 
         System.out.println("Colonias guardadas");
-        System.out.println(listaColonia);
         for (int i = 0; i < listaColonia.size(); i++) {
             System.out.println(i+1+".-" + " Nombre:"+listaColonia.get(i).getNombre() + " - id:" + listaColonia.get(i).getId()+ " - cp: " + listaColonia.get(i).getCp());
         }
