@@ -1,4 +1,4 @@
-package org.gerdoc.pixup.vista;
+package org.mendoza.reyes.yuren.pixup.vista;
 
 public interface Ejecutable {
     void run();

@@ -1,9 +1,11 @@
-package org.gerdoc.pixup.inicio;
+package org.mendoza.reyes.yuren.pixup.inicio;
 
-import org.gerdoc.pixup.util.ReadUtil;
-import org.gerdoc.pixup.vista.*;
-
-import java.util.Scanner;
+import org.mendoza.reyes.yuren.pixup.util.ReadUtil;
+import org.mendoza.reyes.yuren.pixup.vista.*;
+import org.mendoza.reyes.yuren.pixup.vista.Consola1;
+import org.mendoza.reyes.yuren.pixup.vista.Ejecutable;
+import org.mendoza.reyes.yuren.pixup.vista.Menu;
+import org.mendoza.reyes.yuren.pixup.vista.Ventana;
 
 public class Principal {
     public static void main(String [] args){

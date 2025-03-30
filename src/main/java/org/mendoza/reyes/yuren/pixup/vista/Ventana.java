@@ -1,4 +1,4 @@
-package org.gerdoc.pixup.vista;
+package org.mendoza.reyes.yuren.pixup.vista;
 
 public class Ventana implements Ejecutable{
     private static Ventana ventana;

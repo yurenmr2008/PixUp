@@ -1,7 +1,4 @@
-package org.gerdoc.pixup.model;
-
-import org.gerdoc.pixup.util.ReadUtil;
-import org.gerdoc.pixup.vista.Menu;
+package org.mendoza.reyes.yuren.pixup.model;
 
 public class Municipio{
     private  Integer ide;

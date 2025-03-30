@@ -1,6 +1,6 @@
-package org.gerdoc.pixup.model;
+package org.mendoza.reyes.yuren.pixup.model;
 
-import org.gerdoc.pixup.util.ReadUtil;
+import org.mendoza.reyes.yuren.pixup.util.ReadUtil;
 
 import java.util.ArrayList;
 

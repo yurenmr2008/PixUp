@@ -1,6 +1,4 @@
-package org.gerdoc.pixup.vista;
-
-import org.gerdoc.pixup.model.Municipio;
+package org.mendoza.reyes.yuren.pixup.vista;
 
 public class Menu {
     public static void principal(){

@@ -1,9 +1,4 @@
-package org.gerdoc.pixup.model;
-
-import org.gerdoc.pixup.util.ReadUtil;
-import org.gerdoc.pixup.vista.Menu;
-
-import java.util.ArrayList;
+package org.mendoza.reyes.yuren.pixup.model;
 
 public class Colonia{
     private  Integer id;

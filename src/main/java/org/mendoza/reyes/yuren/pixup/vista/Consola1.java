@@ -1,6 +1,6 @@
-package org.gerdoc.pixup.vista;
+package org.mendoza.reyes.yuren.pixup.vista;
 
-import org.gerdoc.pixup.util.ReadUtil;
+import org.mendoza.reyes.yuren.pixup.util.ReadUtil;
 
 public class Consola1 implements Ejecutable{
     private static  Consola1 consola1;

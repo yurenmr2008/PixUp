@@ -1,6 +1,4 @@
-package org.gerdoc.pixup.model;
-
-import org.gerdoc.pixup.util.ReadUtil;
+package org.mendoza.reyes.yuren.pixup.model;
 
 public class Estado {
     private Integer ide;

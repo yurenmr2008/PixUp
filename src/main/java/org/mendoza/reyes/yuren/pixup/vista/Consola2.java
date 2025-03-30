@@ -1,7 +1,10 @@
-package org.gerdoc.pixup.vista;
+package org.mendoza.reyes.yuren.pixup.vista;
 
-import org.gerdoc.pixup.model.*;
-import org.gerdoc.pixup.util.ReadUtil;
+import org.mendoza.reyes.yuren.pixup.model.*;
+import org.mendoza.reyes.yuren.pixup.model.Colonia;
+import org.mendoza.reyes.yuren.pixup.model.Municipio;
+import org.mendoza.reyes.yuren.pixup.model.Opciones;
+import org.mendoza.reyes.yuren.pixup.util.ReadUtil;
 
 public class Consola2 implements Ejecutable{
     private static Consola2 consola2;
