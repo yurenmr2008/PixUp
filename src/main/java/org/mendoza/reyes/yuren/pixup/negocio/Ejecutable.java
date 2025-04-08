@@ -1,4 +1,4 @@
-package org.gerdoc.pixup.negocio;
+package org.mendoza.reyes.yuren.pixup.negocio;
 
 public interface Ejecutable
 {

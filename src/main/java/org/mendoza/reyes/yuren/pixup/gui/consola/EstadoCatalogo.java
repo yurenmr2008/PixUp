@@ -1,7 +1,7 @@
-package org.gerdoc.pixup.gui.consola;
+package org.mendoza.reyes.yuren.pixup.gui.consola;
 
-import org.gerdoc.pixup.model.Estado;
-import org.gerdoc.pixup.util.ReadUtil;
+import org.mendoza.reyes.yuren.pixup.model.Estado;
+import org.mendoza.reyes.yuren.pixup.util.ReadUtil;
 
 public class EstadoCatalogo extends Catalogos<Estado>
 {

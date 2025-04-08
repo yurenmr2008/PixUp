@@ -1,6 +1,6 @@
-package org.gerdoc.pixup.inicio;
+package org.mendoza.reyes.yuren.pixup.inicio;
 
-import org.gerdoc.pixup.gui.ConsolaVentana;
+import org.mendoza.reyes.yuren.pixup.gui.ConsolaVentana;
 
 public class Inicio
 {

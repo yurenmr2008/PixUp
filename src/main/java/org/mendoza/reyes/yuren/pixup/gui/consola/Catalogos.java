@@ -1,8 +1,8 @@
-package org.gerdoc.pixup.gui.consola;
+package org.mendoza.reyes.yuren.pixup.gui.consola;
 
-import org.gerdoc.pixup.gui.LecturaAccion;
-import org.gerdoc.pixup.model.Catalogo;
-import org.gerdoc.pixup.util.ReadUtil;
+import org.mendoza.reyes.yuren.pixup.gui.LecturaAccion;
+import org.mendoza.reyes.yuren.pixup.model.Catalogo;
+import org.mendoza.reyes.yuren.pixup.util.ReadUtil;
 
 import java.util.ArrayList;
 import java.util.List;

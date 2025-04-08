@@ -1,4 +1,4 @@
-package org.gerdoc.pixup.model;
+package org.mendoza.reyes.yuren.pixup.model;
 
 public abstract class Catalogo
 {

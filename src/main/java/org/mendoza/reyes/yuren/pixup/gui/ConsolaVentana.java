@@ -1,8 +1,8 @@
-package org.gerdoc.pixup.gui;
+package org.mendoza.reyes.yuren.pixup.gui;
 
-import org.gerdoc.pixup.gui.consola.Consola;
-import org.gerdoc.pixup.gui.ventana.Ventana;
-import org.gerdoc.pixup.negocio.Ejecutable;
+import org.mendoza.reyes.yuren.pixup.gui.consola.Consola;
+import org.mendoza.reyes.yuren.pixup.gui.ventana.Ventana;
+import org.mendoza.reyes.yuren.pixup.negocio.Ejecutable;
 
 public class ConsolaVentana  extends LecturaAccion
 {
