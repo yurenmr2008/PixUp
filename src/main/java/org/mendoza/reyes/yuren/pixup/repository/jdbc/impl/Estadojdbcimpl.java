@@ -4,10 +4,10 @@ import org.mendoza.reyes.yuren.pixup.model.Estado;
 import org.mendoza.reyes.yuren.pixup.repository.jdbc.Conexion;
 import org.mendoza.reyes.yuren.pixup.repository.jdbc.Estadojdbc;
 
-<<<<<<< HEAD
+
 import java.sql.PreparedStatement;
-=======
->>>>>>> 217e42f954ccdfe5ef658b3b9c566936d4fb4c92
+
+
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -68,7 +68,6 @@ public class Estadojdbcimpl extends Conexion<Estado> implements Estadojdbc {
         return null;
     }
 
-<<<<<<< HEAD
     @Override
     public Estado findByIde(Integer estado) {
         return null;
@@ -130,8 +129,7 @@ public class Estadojdbcimpl extends Conexion<Estado> implements Estadojdbc {
         return false;
     }
 
-=======
->>>>>>> 217e42f954ccdfe5ef658b3b9c566936d4fb4c92
+
     public static void main( String a[] )
     {
         Estadojdbcimpl

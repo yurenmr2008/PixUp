@@ -27,14 +27,20 @@ public abstract class Catalogos<T extends Catalogo> extends LecturaAccion
     {
         if( isListEmpty( ) )
         {
-            System.out.println( "No hay elementos");
+            list = processList( );
+            if( list == null || list.isEmpty( ) )
+            {
+                System.out.println( "No hay elementos" );
+                return;
+            }
         }
-        list.stream().forEach( System.out::println );
+        list.stream().forEach( e -> System.out.println( e.toString( ) ) );
     }
 
     public abstract T newT( );
     public abstract boolean processNewT( T t );
     public abstract void processEditT( T t );
+    public abstract List<T> processList( );
 
     public void add( )
     {

@@ -1,11 +1,17 @@
 package org.mendoza.reyes.yuren.pixup.gui.consola;
 
 import org.mendoza.reyes.yuren.pixup.model.Estado;
+import org.mendoza.reyes.yuren.pixup.repository.jdbc.Estadojdbc;
+import org.mendoza.reyes.yuren.pixup.repository.jdbc.impl.Estadojdbcimpl;
 import org.mendoza.reyes.yuren.pixup.util.ReadUtil;
+
+import java.util.List;
 
 public class EstadoCatalogo extends Catalogos<Estado>
 {
-    public static EstadoCatalogo estadoCatalogo;
+    private static EstadoCatalogo estadoCatalogo;
+    private static Estadojdbc estadojdbc;
+
     private EstadoCatalogo( )
     {
         super();
@@ -41,6 +47,26 @@ public class EstadoCatalogo extends Catalogos<Estado>
         System.out.println("Estado a editar: " + estado.getNombre( ) );
         System.out.println("Teclee el valor nuevo del estado" );
         estado.setNombre( ReadUtil.read( ) );
+    }
+
+    @Override
+    public List<Estado> processList( )
+    {
+        if( estadojdbc == null )
+        {
+            if( !loadEstadojdbc( ) )
+            {
+                System.out.println("Error al cargar el estadojdbc");
+                return null;
+            }
+        }
+        return estadojdbc.findAll( );
+    }
+
+    private boolean loadEstadojdbc()
+    {
+        estadojdbc = Estadojdbcimpl.getInstance( );
+        return estadojdbc != null;
     }
 
 }

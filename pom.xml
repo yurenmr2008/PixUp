@@ -18,9 +18,9 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.32</version>
+            <version>8.0.30</version>
         </dependency>
-<<<<<<< HEAD
+
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -29,8 +29,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-=======
-    </dependencies>
->>>>>>> 217e42f954ccdfe5ef658b3b9c566936d4fb4c92
 </project>
